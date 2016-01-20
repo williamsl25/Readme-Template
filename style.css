@@ -1,0 +1,30 @@
+@media (max-width: 400px) {
+  html { background: red; }
+}
+@media (min-width: 401px) and (max-width: 800px) {
+  html { background: green; }
+}
+@media (min-width: 801px) {
+  html { background: blue; }
+}
+div {
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
+}
